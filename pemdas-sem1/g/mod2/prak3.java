@@ -24,6 +24,7 @@ public class prak3 {
             totlembur = (jamKerja - 60) * lembur;
             totupah = upah + totlembur;
         }
+        System.out.println("Jam kerja = " + jamKerja);
         System.out.println("Upah = " + upah);
         System.out.println("Lembur = " + totlembur);
         System.out.println("Denda = " + totdenda);

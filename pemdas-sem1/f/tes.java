@@ -48,6 +48,11 @@ public class tes {
         System.out.println("Jumlah kendaraan yang masuk : " + totknd);
         System.out.println("Jumlah motor yang parkir : " + mtr);
         System.out.println("Jumlah mobil yang parkir : " + mbl);
+     
+        // int i = 1;
+        // for (; i >= 1; i++) {
+        //     System.out.println(i);
+        // }
     }
 }
 

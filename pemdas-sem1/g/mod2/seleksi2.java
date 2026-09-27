@@ -12,20 +12,18 @@ public class seleksi2 {
         }
         //Hashbi Abdillah
         //265150600111022
-        if (nilai <= 20) {
+        if (nilai <= 20 && nilai % 2 == 1) {
             System.out.println("Filkom");
-            if (nilai % 2 == 1) {
-                System.out.println("UB");
-            } else {
-                System.out.println("Brawijaya");
-            }
+            System.out.println("UB");
+        } else if (nilai <= 20 && nilai % 2 == 0) {
+            System.out.println("Filkom");
+            System.out.println("Brawijaya");
+        } else if (nilai > 20 && nilai % 2 == 1) {
+            System.out.println("PTIIK");
+            System.out.println("UB");
         } else {
             System.out.println("PTIIK");
-            if (nilai % 2 == 1) {
-                System.out.println("UB");
-            } else {
-                System.out.println("Brawijaya");
-            }
+            System.out.println("Brawijaya");
         }
     }
 }
