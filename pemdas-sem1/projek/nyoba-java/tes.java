@@ -25,5 +25,7 @@ public class tes {
         else {
             System.out.println("Kurang");
         }
+
+        System.out.println("akwoakwokakawokawkoawkawokawkoawko");
     }
 }
