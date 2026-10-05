@@ -1,0 +1,17 @@
+*.docx
+*.doc
+*.pdf
+*.pptx
+*.xlsx
+*.zip
+*.rar
+*.env
+*.log
+*.tmp
+*.fprg
+*.jpg
+*.jpeg
+*.png
+!assets/*.jpg
+!assets/*.jpeg
+!assets/*.png
