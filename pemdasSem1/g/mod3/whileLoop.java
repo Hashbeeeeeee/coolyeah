@@ -5,7 +5,7 @@ public class whileLoop {
         int nilai = 1;
         while (nilai<=10) {
             System.out.println(nilai);
-            nilai++;
+            nilai+=2;
         }
     }
 }

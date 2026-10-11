@@ -2,7 +2,7 @@ package mod3;
 
 public class doWhile {
     public static void main(String[] args) {
-        int nilai = 1;
+        int nilai = 11;
         do{
             System.out.println(nilai);
             nilai++;
