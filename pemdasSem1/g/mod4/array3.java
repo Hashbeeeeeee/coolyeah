@@ -5,7 +5,9 @@ public class array3 {
         int a[]={2,7,6,8,1};
         int b[]={3,4,2,8,9,7,2,7,5};
         int pjg;
-        pjg=Math.max(a.length,b.length);
+        int jumlahGenap = 0;
+        int jumlahGanjil = 0;
+        pjg = Math.max(a.length,b.length);
         int c[]=new int[pjg];
         for (int i=0;i<pjg;i++) {
             if(a.length<i+1)
@@ -15,6 +17,15 @@ public class array3 {
             else
                 c[i]=a[i]+b[i];
             System.out.print(c[i]+" ");
+
+            if (c[i] % 2 == 0) {
+                jumlahGenap += c[i];
+            } else {
+                jumlahGanjil += c[i];
+            }
         }
+        System.out.println();
+        System.out.println("Jumlah Bilangan Genap: " + jumlahGenap);
+        System.out.println("Jumlah Bilangan Ganjil: " + jumlahGanjil);
     }
 }

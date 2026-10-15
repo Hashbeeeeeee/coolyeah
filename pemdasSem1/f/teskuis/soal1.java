@@ -6,7 +6,7 @@ public class soal1 {
         System.out.print("masukan nilai n ");
         int n = in.nextInt();
         for (int nilai = 1; nilai <= n; nilai++){
-            if (nilai %3 == 0 || nilai %5 == 0) {
+            if (nilai %3     == 0 || nilai %5 == 0) {
                 System.out.println(nilai);
             }
         }
