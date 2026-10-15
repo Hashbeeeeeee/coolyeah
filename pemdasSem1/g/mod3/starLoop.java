@@ -1,6 +1,6 @@
 package mod3;
 
-import java.util.Scanner;
+import java.util.*; 
 
 public class starLoop {
     public static void main(String[] args) {

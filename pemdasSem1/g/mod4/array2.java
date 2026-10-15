@@ -25,6 +25,16 @@ public class array2 {
             }
         } 
         System.out.println();
+
+        double total = 0;
+        for (int r = 0; r < coba.length; r++) {
+            for (int c = 0; c < coba[r].length; c++) {
+                total += coba[r][c];
+            }
+        }
+        nilaiRata2 = total / (coba.length * coba[0].length);
+        System.out.println("Nilai rata-rata array coba: " + nilaiRata2);
+
         double nilaiMin = bank[0][0];
         double nilaiMax = bank[0][0];
         for (int i = 0; i < bank.length; i++) {
