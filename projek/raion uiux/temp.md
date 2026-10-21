@@ -1,0 +1,1 @@
+saya ingin membuat projek sebuah aplikasi berupa tempat belajar dunia IT dan tempat cari kerja di bidang IT. ada beberapa poin yang harus diperhatikan seperti latar belakang, aturan dan batasan yang tertulis di file .md diatas. buatkan
