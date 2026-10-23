@@ -1,1 +1,8 @@
-saya ingin membuat projek sebuah aplikasi berupa tempat belajar dunia IT dan tempat cari kerja di bidang IT. ada beberapa poin yang harus diperhatikan seperti latar belakang, aturan dan batasan yang tertulis di file .md diatas. buatkan
+# Empathy Map
+
+| Quadrant | Description / User Insights |
+| :--- | :--- |
+| **Think** (What do they think?) | • *Isi poin pikiran dan pertimbangan pengguna di sini* |
+| **Feel** (How do they feel?) | • *Isi emosi dan perasaan pengguna di sini* |
+| **Do** (What do they do?) | • *Isi tindakan dan perilaku nyata pengguna di sini* |
+| **Say** (What do they say?) | • *Isi kutipan atau ucapan pengguna di sini* |
