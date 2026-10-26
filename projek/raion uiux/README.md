@@ -7,7 +7,7 @@
 # Aturan dan batasan dari aplikasi ini adalah
 
 1. Platform digunakan untuk belajar, sertifikasi, dan tempat komunitas IT mencari pekerjaan atau orang untuk dipekerjakan
-2. Target user utama adalah Freshgraduate baik SMA/K dan sarjana dari dunia IT maupun non IT, dan   . rentang umur user adalah 18-35 tahun. user sekunder adalah umkm atau industri yang mencari pekerja IT terampil serta mentor/ guru yang penjadi pengelola atau pemateri
+2. Target user utama adalah Freshgraduate baik SMA/K dan sarjana dari dunia IT maupun non IT, dan orang yang ingin merubah karir ke dunia IT . rentang umur user adalah 18-35 tahun. user sekunder adalah umkm atau industri yang mencari pekerja IT terampil serta mentor/ guru yang penjadi pengelola atau pemateri
 3. fitur fitur utama pada aplikasi ini yaitu
 ### a. pembelajaran
 - Interactive Career Path: Kurikulum berstruktur berdasarkan peran kerja nyata, seperti Frontend Engineer, Data Analyst, atau UI/UX Designer.
