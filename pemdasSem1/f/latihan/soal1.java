@@ -1,4 +1,4 @@
-package teskuis;
+package latihan;
 import java.util.Scanner;
 public class soal1 {
     public static void main(String[] args) {
