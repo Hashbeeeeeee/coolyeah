@@ -26,12 +26,16 @@ public class Rasional {
         A = (pembilang < penyebut) ? penyebut : pembilang;
         B = (pembilang < penyebut) ? pembilang : penyebut;
 
-        while (B != 0) {
+        // while (B != 0) {
+        //     temp = A % B;
+        //     A = B;
+        //     B = temp;
+        // }
+        for (; B != 0; ) {
             temp = A % B;
             A = B;
             B = temp;
         }
-
         pembilang /= A;
         penyebut /= A;
     }
@@ -45,6 +49,15 @@ public class Rasional {
         return (pembilang * A.penyebut > penyebut * A.pembilang);
     }
 
+    public boolean lessThan(Rasional A) {
+        return (pembilang * A.penyebut < penyebut * A.pembilang);
+    }
+    public boolean lessThanOrEqual(Rasional A) {
+        return (pembilang * A.penyebut <= penyebut * A.pembilang);
+    }
+    public boolean moreThanOrEqual(Rasional A) {
+        return (pembilang * A.penyebut >= penyebut * A.pembilang);
+    }
     // operator Unary ---> A = -A
     public void negasi() {
         pembilang = -pembilang;
@@ -55,7 +68,21 @@ public class Rasional {
         pembilang = pembilang * A.penyebut + penyebut * A.pembilang;
         penyebut = penyebut * A.penyebut;
     }
-
+    public void minus(Rasional A) {
+        pembilang = (pembilang * A.penyebut) - (penyebut * A.pembilang);
+        penyebut = penyebut * A.penyebut;
+        sederhana();
+    }
+    public void multiply(Rasional A) {
+        pembilang = pembilang * A.pembilang;
+        penyebut = penyebut * A.penyebut;
+        sederhana();
+    }
+    public void divide(Rasional A) {
+        pembilang = pembilang * A.penyebut;
+        penyebut = penyebut * A.pembilang;
+        sederhana();
+    }
     public void cetak() {
         System.out.println(pembilang + "/" + penyebut);
     }

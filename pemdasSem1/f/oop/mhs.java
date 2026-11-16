@@ -32,8 +32,8 @@ public class Mhs {
         System.out.printf("nama saya %s dengan nim %s berjenis kelamin %s", nama, nim, jk);
     }
 
-    // public static void main(String[] args) {
-    //     Mhs mahasiswa = new Mhs("8888", "jakwanbagung", 'l', "kosong");
-    //     mahasiswa.info();
-    // }
+    public static void main(String[] args) {
+        Mhs mahasiswa = new Mhs("8888", "jakwanbagung", 'l', "kosong");
+        mahasiswa.info();
+    }
 }
