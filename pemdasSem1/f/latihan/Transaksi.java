@@ -4,7 +4,7 @@ public class Transaksi {
     private String idPsn;
     private Menu menu;
     private int jumlah;
-    private double totalBayar;
+    // private double totalBayar;
 
     public Transaksi (String id, Menu menu, int jumlah){
         // this.idPsn = id;
